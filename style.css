@@ -1,0 +1,103 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA; /* Lavender background */
+    color: #333; /* Dark text for contrast */
+}
+
+.container {
+    padding: 1rem;
+    width: 90%;
+    max-width: 600px; /* Adjusted for form */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+    border-radius: 8px; /* Rounded corners for the container */
+    overflow: hidden; /* Ensures no overflow from the container */
+}
+
+.story-form {
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: transparent; /* Remove specific background from form section */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="file"],
+select {
+    width: calc(100% - 1rem); /* Adjust width to account for padding */
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff; /* White background for form fields */
+}
+
+button[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    background-color: #5500cc; /* Light blue to match the theme */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem; /* Added margin-top for spacing */
+}
+
+button[type="submit"]:hover {
+    background-color: #7200a3; /* Slightly darker blue on hover */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #5500cc; /* Light blue to match the theme */
+    font-family: Trykker, serif;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+header {
+    padding: 1rem 0;
+    background-color: #ffffff; /* White background for the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.logo img {
+    height: 60px; /* Adjust based on your logo's size */
+    margin-bottom: 1rem;
+}
+
+/* Update container padding for alignment */
+.container {
+    padding: 1rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
