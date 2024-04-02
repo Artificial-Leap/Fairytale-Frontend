@@ -119,7 +119,7 @@ export default function Generator() {
           ) : (
             <Box>
               <Typography variant="h4" gutterBottom>
-                Cartoon Generator
+                Start Your Story
               </Typography>
               <Tooltip title="Enter the prompt for your story">
                 <TextField
